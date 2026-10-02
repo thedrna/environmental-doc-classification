@@ -1,1 +1,13 @@
+# Data and model outputs (large, not tracked)
+*.pdf
+data/*.json
+data/pdfs/
+outputs/
+*.pt
+*.safetensors
 
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

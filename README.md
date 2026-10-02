@@ -21,7 +21,7 @@ PDF pages ──► Tesseract OCR ──► words + normalised bounding boxes �
 ## Method
 
 - **Document-wise split.** All pages of a document go either to train/validation or to test, so the model is never tested on a document it saw during training. Splits are stratified by each document's most frequent label (80% / 20% of documents).
-- **Data:** 1,340 labelled pages (1,087 train/validation pages from 380 documents, 253 test pages from 95 documents). Pages with no OCR text were removed.
+- **Data:** public documents from the [YESAB Registry](https://yesabregistry.ca/): 1,340 labelled pages (1,087 train/validation pages from 380 documents, 253 test pages from 95 documents). Pages with no OCR text were removed.
 - **Model:** LayoutLM base, 3 epochs, learning rate 5e-5, batch size 1, AdamW, sequence length 512.
 - **5-fold cross-validation** on the train/validation documents (also grouped by document). The fold with the best validation accuracy is evaluated on the held-out test set.
 

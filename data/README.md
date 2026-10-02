@@ -5,7 +5,8 @@ The PDFs and OCR output are **not** stored in this repository. Only the small la
 ## Where the documents come from
 
 - **Project documents:** downloaded from the public [YESAB Registry](https://yesabregistry.ca/) (Yukon Environmental and Socio-economic Assessment Board), which hosts documents for mining and other projects assessed in Yukon.
-- **Project selection:** the projects were not chosen at random. They were selected with help from YESAB staff, as projects of interest for a mining use case. The criteria they used for choosing them are not known, so the sample may not be representative of the whole registry.
+- **Project selection:** the projects were not chosen at random. They were selected with help from mining department, as projects of interest for a mining use case. The criteria they used for choosing them are not known, so the sample may not be representative of the whole registry.
+- **Correspondence documents:** YESAB documents contained too few correspondence pages, so additional letters and emails were provided by the same person who helped with project selection. They are understood to be publicly available documents, but their original source was not recorded, so it cannot be stated here.
 
 ## Labels
 
